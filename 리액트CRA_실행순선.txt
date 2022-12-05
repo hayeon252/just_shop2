@@ -148,3 +148,40 @@ git commit -m '리액트 creact-react-app 저스트 쇼핑몰'
 
 푸쉬(push) 하기
 git push origin master
+
+
+///////////////////////
+
+웹페이지 / 파일 수정
+
+다시 푸쉬
+
+git add .
+git commit -m '리액트 creact-react-app 저스트 쇼핑몰 수정 jsx'
+git push origin master
+
+
+//////////////////////////
+
+배포하기(페이징)
+
+1. 상단메뉴 Settings 클릭
+2. 좌측 중간 하단에 Pages 메뉴 클릭
+3. 우측에 GitHub Pages
+4. Branch  
+   GitHub Pages is currently disabled. Select a source below to enable GitHub Pages for this repository. Learn more.
+
+   None/Save
+   None 클릭 셀렉트 박스 열리면
+   master 선택한다. => 우측 Save 클릭
+
+5. 새로고침한다 F5
+   Ctrl + Shift + R
+   캐시까지 삭제하는 새로 고침
+
+
+   배포주소
+
+   30초 ~ 1분 대기
+   그리고 접속
+   
