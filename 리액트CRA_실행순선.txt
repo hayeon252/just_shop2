@@ -179,9 +179,36 @@ git push origin master
    Ctrl + Shift + R
    캐시까지 삭제하는 새로 고침
 
+   Your site is live at https://hayeon252.github.io/just_shop/
 
    배포주소
+   https://hayeon252.github.io/just_shop/
 
    30초 ~ 1분 대기
    그리고 접속
-   
+
+6. Deployment 도움사이트
+   => 
+   중간 아래
+   GitHub Pages로 내려온다.
+
+   Step 1: Add homepage to package.json
+   //////////////////////////
+   package.json => 깃허브 배포주소 속성과 주소 추가
+   //////////////////////////
+   포트폴리오 프로젝트
+   package.json 에티터에서 연다
+
+   맨 아래쪽에 추가 한다
+
+   "homepage": "https://hayeon252.github.io/just_shop/"
+
+   Step 2: Install gh-pages and add deploy to scripts in package.json
+   //////////////////////////
+   gh-pages => npm i gh-pages 설치or
+               npm install --save gh-pages
+   //////////////////////////
+   Step 3: Deploy the site by running npm run deploy
+
+7. 빌드하기
+   npm run build
